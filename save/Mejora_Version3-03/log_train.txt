@@ -1,0 +1,37 @@
+[07.25.21 17:00:07] Args: {
+    "batch_size": 16,
+    "do_eval": false,
+    "do_train": true,
+    "eval": false,
+    "eval_datasets": "race,relation_extraction,duorc",
+    "eval_dir": "datasets/oodomain_test",
+    "eval_every": 2000,
+    "lr": 3e-05,
+    "num_epochs": 3,
+    "num_visuals": 10,
+    "recompute_features": false,
+    "run_name": "Mejora_Version3",
+    "save_dir": "save/Mejora_Version3-03",
+    "seed": 42,
+    "sub_file": "",
+    "train": false,
+    "train_datasets": "squad,nat_questions",
+    "train_dir": "datasets/indomain_train",
+    "val_dir": "datasets/indomain_val",
+    "visualize_predictions": false
+}
+[07.25.21 17:00:07] Preparing Training Data...
+[07.25.21 17:22:21] Preparing Validation Data...
+[07.25.21 17:22:42] Epoch: 0
+[07.25.21 17:22:43] Evaluating at step 0...
+[07.25.21 17:29:13] Visualizing in TensorBoard...
+[07.25.21 17:29:13] Eval F1: 08.41, EM: 00.05
+[07.25.21 18:21:53] Evaluating at step 2000...
+[07.25.21 18:28:31] Visualizing in TensorBoard...
+[07.25.21 18:28:31] Eval F1: 64.69, EM: 48.65
+[07.25.21 19:21:11] Evaluating at step 4000...
+[07.25.21 19:27:45] Visualizing in TensorBoard...
+[07.25.21 19:27:45] Eval F1: 68.87, EM: 53.44
+[07.25.21 20:20:25] Evaluating at step 6000...
+[07.25.21 20:27:02] Visualizing in TensorBoard...
+[07.25.21 20:27:02] Eval F1: 71.16, EM: 55.09
